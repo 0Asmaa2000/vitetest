@@ -1,5 +1,7 @@
 import React from 'react'
-
+import img1 from '../../assets/public/poert1.png'
+import img2 from '../../assets/public/port2.png'
+import img3 from '../../assets/public/port3.png'
 export default function Portofolio() {
   return (
     <div>
@@ -18,39 +20,42 @@ export default function Portofolio() {
         <div className="portofolio  grid grid-cols-3  gap-4">
           
           <div className="port1">
+              <img src= {img1} className='rounded-md ' alt="" />
             <div className="inner p-4 ">
-              <img src="../../../public//poert1.png" className='rounded-md ' alt="" />
           
 
             </div>
           </div>
           <div className="port1">
             <div className="inner p-4">
-              <img src="../../../public/port2.png" className='' alt="photo" />
+              <img src= {img2} className='' alt="photo" />
 
             </div>
           </div>
           <div className="port1 p-4">
             <div className="inner">
-              <img src="../../../public/port3.png" className='' alt="photo" />
+              <img src= {img3} className='' alt="photo" />
             </div>
           </div>
           <div className="port1">
-            <div className="inner p-4">
-              <img src="../../../public//poert1.png" className='' alt="photo" />
+              <img src= {img1} className='rounded-md ' alt="" />
+            <div className="inner p-4 ">
+          
 
             </div>
           </div>
           <div className="port1">
             <div className="inner p-4">
-              <img src="../../../public/port2.png" className='' alt="photo" />
+              <img src= {img2} className='' alt="photo" />
 
             </div>
           </div>
-          <div className="port1">
-            <div className="inner p-4">
-              <img src="../../../public/port3.png" className='' alt="photo" />
+          <div className="port1 p-4">
+            <div className="inner">
+              <img src= {img3} className='' alt="photo" />
             </div>
+          </div>
+         
           </div>
 
 
@@ -68,7 +73,7 @@ export default function Portofolio() {
 
 
 
-      </div>
     
       )
 }
+React

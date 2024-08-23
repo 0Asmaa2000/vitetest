@@ -1,10 +1,11 @@
 import React from 'react'
+import img from '../../assets/public/avataaars (1).svg'
 
 export default function Home() {
   return (
     <div className=' flex flex-col items-center justify-center h-screen mx-auto Home p-20'>
       
-      <img src="../../../public/avataaars (1).svg" className='w-40' alt="fdgdfgfdg" />
+      <img src={img} className='w-40' alt="fdgdfgfdg" />
      <div className="lines mt-6 flex justify-between gap-10">
       <div className="line1 "></div>
       <i  className="fa-solid fa-star"></i>

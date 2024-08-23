@@ -82,6 +82,10 @@ display:flex;
 .not{
   font-size:100px;
 }
+.active {
+  font-weight: 900;
+  border-bottom: solid 4px red;
+}
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

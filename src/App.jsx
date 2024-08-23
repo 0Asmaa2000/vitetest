@@ -4,14 +4,14 @@ import { } from 'react'
 import './App.css'
 import About from './Component/About/About'
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createhashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Component/Layaut/Layout'
 import NotFound from './Component/Notfound/NotFound'
 import Portofolio from './Component/Portofolio/Portofolio'
 import Contact from './Component/Contact/Contact'
 import Home from './Component/Home/Home'
 Home
-const router = createBrowserRouter([
+const router = createhashRouter([
   {
     path: '/',
     element: <Layout />,
